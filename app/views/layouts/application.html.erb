@@ -12,8 +12,10 @@
   </head>
 
   <body>
-    <main class="container mx-auto mt-28 px-5 flex">
+    <%= render partial: 'layouts/navbar' %> 
+    <main class=" w-full bg-green-50">
       <%= yield %>
     </main>
+    <footer>This is the footer</footer>
   </body>
 </html>
