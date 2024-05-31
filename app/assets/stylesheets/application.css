@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ svg{
+  width: 70px;
+  height: 70px;
+ }
+.h-icons:hover svg{
+  fill: #fff;
+}
